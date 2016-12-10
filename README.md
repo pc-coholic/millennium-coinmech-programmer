@@ -14,7 +14,7 @@ In the long run, the programmer will be used with the web-platform running at [h
 ### Requirements
 * python3
 * pylibftdi
-* libftdi
+* libftdi (sometimes called libftdi1)
 
 It is recommended, that you install the provided `99-libftdi.rules`-files in the udev-rule-folder (eg. `/etc/udev/rules.d/`). That way, any attached FTDI-device is available to users in the `dialout`-group. If you choose to not install the udev-rule (or to install the rule but to not put your user in the `dialout`-group), the python-scripts will need `root` to run.
 
